@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NailSalWa</title>
+    <link rel="stylesheet" type="text/css" href="nailsalwa.css">
+    <script src="https://cdn.maptiler.com/maptiler-sdk-js/v2.3.0/maptiler-sdk.umd.min.js"></script>
+    <link href="https://cdn.maptiler.com/maptiler-sdk-js/v2.3.0/maptiler-sdk.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+<body>
+    <!--ref https://jolienailsandspawa.com/ -->
+    <div class="top">
+        <span class="email">Email:nailspa@wa.com</span>
+        <span class="address">Address:111 Dqas St NW, Basville, AL</span>
+    </div>
+    <div id="secondDiv" class="movehead">
+        <ul class="horizontal-list">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Services</li>
+        </ul>
+        <span class="title" id="fixTitle">DAW 
+            NAIL & SPA</span>
+        <ul class="horizontal-list">
+            <li>Gallery</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    <!--Slider here below -->
+    <div class="slider">
+        <div class="slides">
+            <img src="gallery.jpg" alt="Image 1" class="slide">
+            <img src="nailstock3.jpg" alt="Image 2" class="slide">
+            <img src="nailstock4.jpg" alt="Image 3" class="slide">     
+        </div>
+        <div class="carousel-controls">
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+        </div>
+    </div> 
+    <div class="intro">
+        <div class="WelFle">
+            <span id="Wel">WELCOME TO</span>
+            <span class="title">DAW 
+             NAIL & SPA</span>
+        </div>
+        <p> At DAW NAIL & SPA, our goal is to provide the highest level of customer service and satisfaction. Our highly qualified and <br> professional<br> 
+            staff, have the knowledge and experience to provide all of the services we offer.<br> 
+            DAW NAIL & SPA provides you with a welcoming and comfortable atmosphere where you feel at home while enjoying the luxury of  
+            being pampered.<br> 
+            At DAW NAIL & SPA we are always looking for new and creative ways to beautify our customers. You will feel refreshed and radiant 
+            after enjoying any of our spa treatments. From the basics to the deluxe, we off a myriad of services.
+            DAW NAIL & SPA pledges to adhere to the highest degree of cleanliness. All reusable nail tools are sanitized in medical-grade 
+            equipment, while any tools that cannot be disinfected are disposed of. We provide each customer with their own individual nail and<br>  
+            pedicure kit.<br> 
+            We’ll ensure this by offering you world-class customer service, outstanding treatment in our comfortable and soothing atmosphere.
+            Come and enjoy, either alone or with friends, you will leave fully charged and feeling beautiful. </p>
+        <a href="appointment.png" target="_blank">appointment</a>
+        <a href="direction.png"  target="_blank">direction</a>
+    </div>
+    <div id="nail4">
+        <img src="nailstock4.jpg" height="auto" width="80%">
+    </div>
+    <div id="services">
+        <h3>Our Services</h3>
+        <div class="lines">
+            <hr class="undertitle">
+            <hr class="undertitle">
+        </div>
+        <p>Thank you for choosing Daw Nails & Spa and for giving us the pleasure of serving you with our array of spa services and treatments.</p>
+    </div>
+    <div class="container1" id="menupic">
+        <div class="menu1">
+            <h2>Nail Enhancement</h2>
+        <ul>
+            <li>
+                <span class="treatment"> Full Set (Regular)
+                </span>
+                <span class="price">$60 & up</span>
+            </li>
+            <hr>
+            <li>
+                <span class="treatment"> Pink & White
+                </span>
+                <span class="price">$75</span>
+            </li>
+            <hr>
+            <li>
+                <span class="treatment"> Fill
+                </span>
+                <span class="price">
+                    $55 & up
+                    </span>
+            </li>
+            <hr>
+            <li>
+                <span class="treatment"> Full Set Gel
+                </span>
+                <span class="price">
+                    $65 & up
+                    </span>
+            </li>
+            <hr>
+            <li>
+                <span class="treatment"> Dipping
+                </span>
+                <span class="price">
+                    $55 & up
+                    </span>
+            </li>
+            <hr>
+        </ul>
+        </div>
+        
+    <!-- -->
+        <div class="imag-block1">
+            <img src="nailEnh.png" alt="candles" width="80%" />
+        </div> 
+
+    </div>
+
+    <div class="container1" id="menupic">
+        <!--<div class="imag-block2">
+            <img src="nailstock1.jpg" alt="candles" width="50%" height="70%" />
+        </div> -->
+        <div class="imag-block1">
+            <img src="manPed.jpeg" alt="candles" width="80%" />
+        </div> 
+        <div class="menu1">
+            <h2>Manicure & Pedicure</h2>
+        <ul>
+            <li>
+                <span class="treatment">Manicure</span>
+                <span class="price">$30</span>
+            </li>
+            <hr>
+            <li>
+                <span class="treatment"> Pedicure
+                </span>
+                <span class="price">$35</span>
+            </li>
+            <hr>
+            <li>
+                <span class="treatment"> Shellac Manicure
+                </span>
+                <span class="price">$40</span>
+            </li>
+            <hr>
+            <li>
+                <span class="treatment"> Shellac Pedicure
+                </span>
+                <span class="price">$42</span>
+            </li>
+            <hr>
+            <li>
+                <span class="treatment"> French Manicure (Regular/Gel)
+                </span>
+                <span class="price">$50</span>
+            </li>
+            <hr>
+        </ul>
+        </div>
+        
+    <!-- -->
+       
+
+    </div>
+     
+    <h3>Gallery</h3>
+    <div id = "gallery">
+        <img src="gallery.jpg" width="20%"/>
+        <img src="gallery.jpg" width="20%"/>
+        <img src="gallery.jpg" width="20%"/>
+        <img src="gallery.jpg" width="20%"/>
+        <img src="gallery.jpg" width="20%"/>
+        <img src="gallery.jpg" width="20%"/>
+        <img src="gallery.jpg" width="20%"/>
+        <img src="gallery.jpg" width="20%"/>
+    </div>
+    
+    <h3 id="gp">Group Parties</h3>
+    <div class="hr-container">
+        <hr id="rule1" ><hr id="rule2" >
+    </div>
+    
+    <div id="textgroup"><p>For group of 3 or more, we can accommodate special events. Whether it’s a corporate get-together, wedding day 
+        celebration, or a teen birthday party, let us help you plan your next special event. We can also custom 
+        formulate a manicure or pedicure for any guest of honor.</p></div>
+     
+
+     <div id="groupparty">
+        <img src="textimg.png" class="grouppic"/>
+        <img src="3ladies.jpg" class="grouppic"/>
+     </div>
+
+     <div id="add">
+        <p id="addr">    714 12th Ave, Seattle, WA 98122
+            (206) 709-7778
+        
+            Mon – Sat9:30 am – 7:30 pm
+            Sunday10:00 am – 6:30 pm
+        </p>
+        <div id="map"></div>
+     </div>
+     <h3>We’d Love to Hear From You, Get In Touch With Us!</h3>
+     <p id="hear">We’d love to get your thoughts. By giving us your feedback, you’re helping to make the services experience even better. Please use the form below to send us your comments or make appointment.</p>
+     <form id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+     
+     <script src="nailsalwa.js"></script>
+     <script src="nailocate.js"></script>
+     <footer><div class="name">SAL NAIL SPA</div>
+
+        <!-- Second Element: Copyright text -->
+        <div class="copyright">
+            &copy; Copyright | SAL Nails & Spa. All Rights Reserved
+        </div>
+    
+        <!-- Third Element: Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+            </a>
+        </div>
+     </footer>
+</body>
+</html>
