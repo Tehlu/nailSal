@@ -1,0 +1,522 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.top {
+  background-color: rgb(15, 12, 12);
+  width: 100%;
+  margin:0;
+  height: 75px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*padding: 10px 0;
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;*/
+    
+}
+
+.email {
+    margin-left: 100px;
+    /*font-family: "Itim", cursive;*/
+}
+
+.address {
+    margin-right: 100px;
+    
+    /*font-size: 15px ;
+    letter-spacing: 2px;*/
+}
+.horizontal-list{
+  list-style-type: none;
+  padding: 20px 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;  
+} 
+.title{
+  white-space: pre-line;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  background: linear-gradient(to bottom, rgb(216, 79, 102), rgb(216, 200, 200));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+/*#fixTitle{
+  /*margin-right: 59px;
+  
+} */
+
+.movehead{
+  display: flex;
+  background-color: rgb(247, 243, 243);
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+  
+    /*position: fixed;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(247, 243, 243);
+    /* display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease; */
+   
+
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.slider{
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider img{
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+img.displaySlide{
+  display:block;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.slider button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  padding: 10px 15px;
+  color: rgb(226, 169, 178);
+  background-color: hsla(0, 0%, 80%, 0.22);
+  border: none;
+  cursor: pointer;
+}
+
+.prev{
+  left:0;
+}
+
+.next{
+  right:0;
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+
+.WelFle{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center ;
+  
+}
+
+#Wel{
+  font-size: 30px;
+  /*white-space: pre-line;*/
+}
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+  }
+  .intro p{
+    max-width:95%;
+    line-height: 1.9;
+  }
+  #nail4{
+    text-align: center;
+    margin-top: 30px;
+  }
+  #services{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+  }
+  .lines {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /*gap: 20px;--> */
+  }
+  .undertitle {
+    width:20px;
+    height: 2px;
+    background-color: black;
+    margin: 0 15px;
+  } 
+
+  .Details {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    background-color: grey;
+    /*height: 400px;*/
+    /*margin: 0 10px;*/
+  }
+
+  .container1{
+    display: flex;
+    /*padding: 10px;  This was the issue*/
+    width:100%;
+  }
+
+  .menu1 {
+    flex:1;
+    margin-right: 20px; /* Add space between the menu and image */
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    max-width: 50%;
+}
+
+.menu1 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu1 ul {
+  list-style-type: none;
+}
+
+.menu1 li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.menu1 hr {
+  margin: 10px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.treatment {
+  text-align: left;
+}
+
+.price {
+  text-align: right;
+}
+
+.imag-block1{
+    flex: 1; /* This allows the image block to take up equal space */
+    padding: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  
+}
+.image-block1 img {
+  max-width: 50%;
+  width: 20px;
+  object-fit: contain;
+  height: 40px;
+  margin: 10px;
+  padding-top:5px;
+}
+
+.image-block2 img {
+  max-width: 50%;
+  width: 40px;
+  object-fit: contain;
+  height: 40px;
+  margin: 10px;
+  padding-top:5px;
+}
+
+h3 {
+  text-align:center;
+}
+
+/*#gallery{
+  background-color: gray;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+} */
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers images horizontally */
+  gap: 10px; /* Space between images */
+  width: 100vw; /* Full viewport width */
+  max-width: 100%; /* Prevent overflow */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in width */
+  margin: 0 auto; /* Center-align container itself if needed */
+}
+
+/* #gallery img {
+  width: calc(45% - 10px); /* Each image takes 25% of the row */
+  /*max-width: 150px; /* Limit the max size of each image */
+
+
+  .hr-container{
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+    /*background-color: gray;*/
+  }
+  
+  #gp{
+    margin-bottom: 0px;;
+  }
+  #rule1{
+    flex-basis:10%;
+    /*height: 10px;*/
+    background-color: yellow;
+    margin-left: 35% ;
+  }
+
+  #rule2{
+    flex-basis:10%;
+    /*height: 10px;*/
+    background-color: yellow;
+    margin-right: 35% ;
+  }
+  
+  #textgroup{
+    text-align: center;
+    margin: 0 80px;
+    line-height: 1.9;
+  }
+
+  #groupparty{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .grouppic{
+    width: 300px;
+    height: auto;
+  }
+ 
+
+  #addr{
+    white-space: pre-line;
+  }
+
+  #map {
+    height: 400px;
+    width: 20%;
+    margin-right: 60px;
+
+  }
+
+  #add{
+    display: flex;
+    justify-content: center;
+  }
+
+  #add > * {
+    flex: 1 1 auto;
+    margin-top: 40px;
+  }
+
+  #addr{
+    text-align: end;
+    letter-spacing: 2px;         /* Adjusts spacing between letters */
+    word-spacing: 10px;          /* Adjusts spacing between words */
+    font-size: 30px;               /* Increases overall font size */
+    line-height: 1.5;              /* Adds space between lines */
+    margin-right: 20px;
+    margin-left: 60px;
+    color:rgb(236, 48, 48)
+  }
+
+  #hear{
+    text-align: center;
+    margin: 0 80px;
+    line-height: 1.9;
+    padding-bottom: 20px;
+  }
+
+  #contactForm {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px; /* This was the second issue */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+#contactForm h2 { text-align: center; margin-bottom: 20px; }
+#contactForm label { font-weight: bold; margin-top: 10px; display: block; }
+#contactForminput, #contactForm textarea {
+    width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 15px;
+    border: 1px solid #ccc; border-radius: 4px; resize: vertical;
+}
+#contactForm button {
+    width: 100%; padding: 10px; border: none; border-radius: 5px;
+    background-color: #28a745; color: white; font-size: 16px; cursor: pointer;
+}
+#contactForm button:hover { background-color: #218838; }
+
+footer {
+  height: 150px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row; /* Change from column to row for horizontal layout */
+  align-items: center;
+  justify-content: space-around; /* Evenly space elements */
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 0 20px;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+}
+
+/* First element styling: Name in pink and uppercase */
+footer .name {
+  color: pink;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Second element styling: Copyright text */
+footer .copyright {
+  font-size: 1.2em;
+  color: #667;
+  text-align: center;
+}
+
+/* Third element styling: Social icons */
+footer .social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+footer .social-icons img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 615px) {
+  .top {
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      width: 100%;
+      margin-right: 0;
+    }
+    .email {
+      margin-left: 0;
+      /*font-family: "Itim", cursive;*/
+    }
+    .address {
+      margin: 10px;
+      text-align: center;
+   
+    }
+
+    .horizontal-list {
+      display: none;
+    }
+
+    .container1{
+      flex-direction: column;
+      
+        
+    }
+
+    .menu1 {
+      flex:1;
+      margin-left: 50px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      max-width: 50%;
+      margin-top:12%;
+  }
+
+    .imag-block1{
+      flex: 1; /* This allows the image block to take up equal space */
+      padding: 0;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      margin-top: 30px; 
+    
+  }
+
+    #gallery{
+      flex-direction: column;
+      align-items: center;
+      
+
+    }
+
+    #gallery img{
+      width: 100%;
+    }
+    #groupparty{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #add{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #map{
+      width: 100%;
+      /*left: 6.5% /* Centering issue */
+    }
+
+    #addr{
+      text-align:center;
+    }
+
+    footer{
+      flex-direction: column;
+    }
+
+}
+
+/* Fixed but lower than , it still has gap issues*/
+
+
+
+
+
+
+
+
+  
+ 
